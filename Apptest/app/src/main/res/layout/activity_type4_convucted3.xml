@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ยาเสพติดให้โทษประเภท4"
+        android:id="@+id/textView66"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ใช้อุบายหลอกลวง ขู่เข็ญ ใช้กำลังประทุษร้าย ข่มขืนใจให้ผู้อื่นเสพ"
+        android:id="@+id/textView67"
+        android:layout_below="@+id/textView66"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- จำคุก 1-10 ปี และปรับ 100,000-1,000,000 บาท"
+        android:id="@+id/textView68"
+        android:layout_below="@+id/textView67"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- ถ้าทำโดยมีอาวุธหรือร่วมกัน 2 คนขึ้นไป จำคุก 2-15 ปี และปรับ 200,000-1,500,000บาท"
+        android:id="@+id/textView69"
+        android:layout_below="@+id/textView68"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- ถ้ากระทำต่อหญิงหรือผู้ยังไม่บรรลุนิติภาวะ หรือเพื่อจูงใจให้ผู้อื่นทำผิดอาญา หรือเพื่อประโยชน์ในการทำผิดอาญาจำคุก 3 ปี ถึงตลอดชีวิต และปรับ 300,000 -500,000บาท"
+        android:id="@+id/textView70"
+        android:layout_below="@+id/textView69"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- ถ้าเป็นมอร์ฟีน โคคาอีน เพิ่มโทษขึ้นกึ่งหนึ่ง และถ้ากระทำต่อหญิงหรือผู้ยังไม่บรรลุนิติภาวะ จำคุกตลอดชีวิต และปรับ 1,000,000-5,000,000 บาท"
+        android:id="@+id/textView71"
+        android:layout_below="@+id/textView70"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="- ถ้าเป็นเฮโรอีน โทษเป็น 2 เท่า และถ้ากระทำต่อหญิงหรือผู้ยังไม่บรรลุนิติภาวะ โทษประหารชีวิต"
+        android:id="@+id/textView72"
+        android:layout_below="@+id/textView71"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

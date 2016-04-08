@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ยาอี"
+        android:id="@+id/textView29"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.03"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/yae"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : ยาอี หรือ เอ็กซ์ตาซี่ (Ecstasy)"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่ออื่น ๆ :ยาเลิฟ (Love drug หรือ Love Pills) ยากอด (Hug Pills)"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="สารเคมีที่ออกฤทธิ์ :
+3,4-Methylenedionymethamphetamine (MDMA) หรือ
+3,4-Methylenedionyamphetamine (MDA) หรือ
+3,4-Methylenedionyethylamphetamine (MDE หรือ MDEA)
+"
+        android:id="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView31"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะของยาอี มีทั้งที่เป็นแคปซูล และเป็นเม็ดยาสีต่าง ๆ แต่ที่พบในประเทศไทย ส่วนใหญ่มีลักษณะเป็นเม็ดกลมแบน เส้นผ่าศูนย์กลาง 0.8 - 12 ซ.ม. หนา 0.3 - 0.4 ซ.ม. ผิวเรียบ และปรากฏสัญลักษณ์บนเม็ดยาเป็นรูปต่าง ๆ เช่น กระต่าย, ค้างคาว, นก, ดวงอาทิตย์, P.T.ฯลฯ เสพโดยการรับประทานเป็นเม็ด จะออกฤทธิ์ภายในเวลา 45 นาที และฤทธิ์ยาจะอยู่ในร่างกายได้นานประมาณ 6 - 8 ชั่วโมง"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</ScrollView>

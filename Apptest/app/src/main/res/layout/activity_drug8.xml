@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="กระท่อม"
+        android:id="@+id/textView35"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/katom"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : กระท่อม (Kratom)"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="สารเคมีที่ออกฤทธิ์ :Mitragynine"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ :
+กระท่อมมีลักษณะเป็นไม้ยืนต้นขนาดกลางมีแก่นเป็นไม้เนื้อแข็ง ใช้ส่วนของใบเป็นสิ่งเสพติด ลักษณะใบคล้ายใบกระดังงาหรือใบฝรั่งต้นหนาทึบ ต้นกระท่อมมี 2 ชนิด คือ
+1. ชนิดที่มีก้านและเส้นใบ เป็นสีแดงเรื่อๆ
+2. ชนิดที่ต้นสีเขียว ใบสีเขียว ดอกกลมโตเท่าผลพุทราไทยล้อมรอบด้วยเกสรสีแดงเรื่อๆ คล้ายดอกกระถิน มีชื่อเรียกต่างๆ เช่น กระทุ่มโคก กระทุ่มพาย เป็นต้น
+"
+        android:id="@+id/textView38"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

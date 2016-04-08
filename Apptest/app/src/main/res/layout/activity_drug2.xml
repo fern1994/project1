@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="มอร์ฟีน"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/morphine"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่ออื่น ๆ : Cobies , Cube , Miss Emma , White stuff"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทางวิทยาศาสตร์ : 3,6–dihydroxy-N-methyl-4,5-epoxy-morphinen-7"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ :
+มอร์ฟีน เป็นผงสีขาวหรือเทาเกือบขาว ไม่มีกลิ่น มีรสขม มีฤทธิ์สูงกว่าฝิ่นประมาณ 8-10 เท่า เสพติดได้ง่าย มีลักษณะเป็นเม็ด เป็นผง และเป็นก้อน หรือละลายบรรจุหลอดสำหรับฉีด นำเข้าสู่ร่างกายโดยวิธีฉีดเป็นส่วนมาก มอร์ฟีนมีลักษณะ 2 รูป คือ รูปอิสระ (Free) และรูปเกลือ (Salt) สำหรับมอร์ฟีนที่มีลักษณะเป็นรูปของเกลือ ได้แก่ ซัลเฟท (Sulfate) ไฮโดรคลอไรด์ (Hydrochloride) อาซิเตท (Acetate) และทาร์เตรท (Tratrate) มอร์ฟีนรูปเกลือที่นิยมทำมาก คือ ซัลเฟท
+"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
+</ScrollView>

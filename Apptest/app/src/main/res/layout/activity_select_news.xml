@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fern_computer.apptest.SelectNews">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ข่าว"
+        android:id="@+id/textView84"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/news"
+        android:layout_below="@+id/textView84"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลงพื้นที่ครั้งที่ 16"
+        android:id="@+id/textView85"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="วันทั่ 22 ม.ค. 2559 เวลา 9.00-12.00 น."
+        android:id="@+id/textView86"
+        android:layout_below="@+id/textView85"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="รายละเอียด ให้อาสาทุกลงพื้นที่ในชุมชนเพื่อสำรวจและคัดกรองสารเสพติดในชุมชน"
+        android:id="@+id/textView88"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView86"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ประกาศ วันที่ 19 ม.ค. 2559"
+        android:id="@+id/textView89"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView88"
+        android:layout_alignParentLeft="true" />
+</RelativeLayout>
