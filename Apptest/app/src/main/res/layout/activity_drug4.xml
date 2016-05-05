@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="สารระเหย"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/inhalation"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="สารเคมีที่ออกฤทธิ์ :โทลูอีน , อาซีโทน ฯลฯ"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ :
+สารระเหยเกือบทุกชนิดเป็นของเหลว มีกลิ่นเฉพาะตัว หรือกลิ่นหอม ระเหยได้ดี มีความหนืดต่ำค่าแรงตึงผิวต่ำ บางตัวติดไฟได้ เช่น Toluene , Ethyl Acetate , Acetone และ Methyl Ethyl Ketone เป็นต้น ส่วนมากมักไม่มีสี ใส ไม่มีตะกอน ค่าความดันไอต่ำ ละลายในน้ำได้ไม่ดี แต่มีคุณสมบัติละลายได้ดีในไขมัน
+"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ยาไอซ์"
+        android:id="@+id/textView25"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ice"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : ยาไอซ์ (Ice)"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทางวิทยาศาสตร์ : Methamphetamine"
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ
+        เป็นรูปแบบหนึ่งของ Methamphetamine หรือยาบ้า เนื่องจากมีรูปพรรณเป็นก้อนผลึกใสเหมือนน้ำแข็ง จึงมีชื่อเรียกขานในหมู่ผู้เสพว่า “ไอซ์” (Ice) เนื่องจากยาไอซ์มีความบริสุทธิ์เกือบ 100% จึงมีฤทธิ์แรงกว่ายาบ้า (บางคนเรียกว่า หัวยาบ้า) สารตั้งต้นของการผลิตมักเป็นอีพีดรีน ซูโดอีฟรีดีน ฯลฯ นิยมเสพโดยการนำผลึกลนไฟให้ระเหิด แล้วสูดไอของผลึกที่ได้เข้าปอด การออกฤทธิ์ก็จะผิดกับการเสพยาบ้าที่ใช้ลนไฟ เพราะการสูดควันของยาบ้าจะให้สารหลายอย่างซึ่งเป็นอันตรายต่อร่างกายมากกว่า ขณะที่การสูดไอของยาไอซ์จะได้เฉพาะ methamphetamine หรือ amphetamine เท่านั้น นอกจากนี้เมื่อเผาไหม้แล้วจะไม่มีกลิ่น"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</ScrollView>
