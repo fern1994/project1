@@ -1,0 +1,64 @@
+﻿@model AntiDrugWeb1.Models.alertmeeting
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>alertmeeting</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.alertDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertDetail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertDetail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertReport)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertReport)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertByStaff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertByStaff)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,58 @@
+﻿@model AntiDrugWeb1.Models.alertmeeting
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>alertmeeting</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.alertDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertDetail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertDetail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertReport)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertReport)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.alertByStaff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.alertByStaff)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.alertID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

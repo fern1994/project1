@@ -1,0 +1,87 @@
+﻿@model IEnumerable<AntiDrugWeb1.Models.evaluate>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.patientIDCard)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.patientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.patientLastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.patientAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.patientAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evaluatePoint)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.drugType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evaluateResult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evaluateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.evaluateByStaff)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.patientIDCard)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.patientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.patientLastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.patientAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.patientAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evaluatePoint)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.drugType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evaluateResult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evaluateDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.evaluateByStaff)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.evaluateID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.evaluateID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.evaluateID })
+        </td>
+    </tr>
+}
+
+</table>

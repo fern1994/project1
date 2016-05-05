@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AntiDrugWeb1.Models.staff>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.staffName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.staffLastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.staffAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.staffTel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.staffUsername)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.staffPassword)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffLastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffTel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffUsername)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.staffPassword)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.staffID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.staffID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.staffID })
+        </td>
+    </tr>
+}
+
+</table>
