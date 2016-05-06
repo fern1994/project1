@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2016 at 01:23 PM
+-- Generation Time: May 06, 2016 at 09:28 AM
 -- Server version: 10.1.9-MariaDB
 -- PHP Version: 5.5.30
 
@@ -28,19 +28,19 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `alertmeeting` (
   `alertID` int(5) NOT NULL,
-  `alertDate` date NOT NULL,
-  `alertTitle` varchar(50) NOT NULL,
-  `alertDetail` text NOT NULL,
-  `alertReport` text NOT NULL,
-  `alertByStaff` varchar(50) NOT NULL
+  `meetingDate` date NOT NULL,
+  `meetingTitle` varchar(50) CHARACTER SET utf32 NOT NULL,
+  `meetingDetail` text CHARACTER SET utf32 NOT NULL,
+  `meetingSummary` text CHARACTER SET utf32 NOT NULL,
+  `meetingByStaff` varchar(50) CHARACTER SET utf32 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `alertmeeting`
 --
 
-INSERT INTO `alertmeeting` (`alertID`, `alertDate`, `alertTitle`, `alertDetail`, `alertReport`, `alertByStaff`) VALUES
-(30001, '2016-04-29', 'Meet Bro Suchart', 'Meet Bro Suchart at coffee shop in Pattani', '-มีการปรับพฤติกรรมการใช้ชีวิต\r\n-ลดการใช้สารเสพติด', 'Ayouzainy');
+INSERT INTO `alertmeeting` (`alertID`, `meetingDate`, `meetingTitle`, `meetingDetail`, `meetingSummary`, `meetingByStaff`) VALUES
+(30001, '2016-04-29', 'นัดพี่สุชาติ', 'นัดพบปะ พูดคุย อาการและความคืบหน้าการรักษาด้วยตนเอง', 'พี่สุชาติมี่สุขภาพที่ดีขึ้น ลดขนาดการใช้สารได้พอประมาณ', 'Ayou');
 
 -- --------------------------------------------------------
 
@@ -50,16 +50,16 @@ INSERT INTO `alertmeeting` (`alertID`, `alertDate`, `alertTitle`, `alertDetail`,
 
 CREATE TABLE `evaluate` (
   `evaluateID` int(5) NOT NULL,
-  `patientIDCard` varchar(15) NOT NULL,
-  `patientName` varchar(50) NOT NULL,
-  `patientLastname` varchar(50) NOT NULL,
+  `patientIDCard` varchar(15) CHARACTER SET utf32 NOT NULL,
+  `patientName` varchar(50) CHARACTER SET utf32 NOT NULL,
+  `patientLastname` varchar(50) CHARACTER SET utf32 NOT NULL,
   `patientAge` int(3) NOT NULL,
-  `patientAddress` text NOT NULL,
+  `patientAddress` text CHARACTER SET utf32 NOT NULL,
   `evaluatePoint` int(5) NOT NULL,
-  `drugType` varchar(100) NOT NULL,
-  `evaluateResult` varchar(30) NOT NULL,
+  `drugType` varchar(100) CHARACTER SET utf32 NOT NULL,
+  `evaluateResult` varchar(30) CHARACTER SET utf32 NOT NULL,
   `evaluateDate` date NOT NULL,
-  `evaluateByStaff` varchar(50) NOT NULL
+  `evaluateByStaff` varchar(50) CHARACTER SET utf32 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -67,7 +67,9 @@ CREATE TABLE `evaluate` (
 --
 
 INSERT INTO `evaluate` (`evaluateID`, `patientIDCard`, `patientName`, `patientLastname`, `patientAge`, `patientAddress`, `evaluatePoint`, `drugType`, `evaluateResult`, `evaluateDate`, `evaluateByStaff`) VALUES
-(20001, '1539900204628', 'Suchart', 'Numsai', 25, 'Pattani', 35, 'DrugType1', 'medium', '2016-04-01', 'Nanny');
+(20001, '1456622869347', 'สมศรี', 'ใจดี', 25, 'นราธิวาส', 35, 'morphine', 'medium', '2016-04-01', 'Nanny'),
+(20002, '196335502347', 'สุชาติ', 'ใจตรง', 32, 'Yala', 85, 'ยาไอซ์', 'ร้ายแรง', '2016-05-03', 'Ayou'),
+(20003, '1988533246579', 'Michel', 'Horan', 19, 'LA', 24, 'morphine', 'Low', '2016-05-08', 'Fearn');
 
 -- --------------------------------------------------------
 
@@ -77,8 +79,8 @@ INSERT INTO `evaluate` (`evaluateID`, `patientIDCard`, `patientName`, `patientLa
 
 CREATE TABLE `news` (
   `newsID` int(5) NOT NULL,
-  `newsTitle` varchar(100) NOT NULL,
-  `newsDetail` text NOT NULL,
+  `newsTitile` varchar(100) NOT NULL,
+  `newsDetails` text NOT NULL,
   `newsDate` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -86,9 +88,9 @@ CREATE TABLE `news` (
 -- Dumping data for table `news`
 --
 
-INSERT INTO `news` (`newsID`, `newsTitle`, `newsDetail`, `newsDate`) VALUES
-(10001, 'กิจกรรมจิตอาสาสัมพันธ์ ', 'กิจกรรมจิตอาสาสัมพันธ์ ครั้งที่1 จังหวัดยะลา', '2016-04-17'),
-(10002, 'อบรมอาชีพ ครั้งที่1', 'อบรมอาชีพ ครั้งที่1 จังหวัดปัตตานี\r\n', '2016-04-20');
+INSERT INTO `news` (`newsID`, `newsTitile`, `newsDetails`, `newsDate`) VALUES
+(10001, 'อบรมยาเสพติต ยะลา', 'ให้ความรู้ ร่วมกิจกรรมต้านยาเสพติด จ.ยะลา', '2016-05-16'),
+(10002, 'Staff meeting at Pattani', 'meeting all at Pattani', '2016-05-22');
 
 -- --------------------------------------------------------
 
@@ -98,12 +100,12 @@ INSERT INTO `news` (`newsID`, `newsTitle`, `newsDetail`, `newsDate`) VALUES
 
 CREATE TABLE `staff` (
   `staffID` int(5) NOT NULL,
-  `staffName` varchar(20) NOT NULL,
-  `staffLastname` varchar(20) NOT NULL,
-  `staffAddress` text NOT NULL,
+  `staffName` varchar(20) CHARACTER SET utf32 NOT NULL,
+  `staffLastname` varchar(20) CHARACTER SET utf32 NOT NULL,
+  `staffAddress` text CHARACTER SET utf32 NOT NULL,
   `staffTel` int(13) NOT NULL,
-  `staffUsername` varchar(20) NOT NULL,
-  `staffPassword` varchar(20) NOT NULL
+  `staffUsername` varchar(20) CHARACTER SET utf32 NOT NULL,
+  `staffPassword` varchar(20) CHARACTER SET utf32 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -111,9 +113,10 @@ CREATE TABLE `staff` (
 --
 
 INSERT INTO `staff` (`staffID`, `staffName`, `staffLastname`, `staffAddress`, `staffTel`, `staffUsername`, `staffPassword`) VALUES
-(1, 'Patcharamai', 'Heamhongsa', 'Phuket,Thailand', 833140625, 'Fearn', 'fearn01'),
-(2, 'Kansuda', 'Sridee', 'Phuket,Thailand', 852130245, 'Nanny', 'Nanny02'),
-(3, 'Norayounee', 'Hajeealee', 'Narathiwat,Thailand', 862932904, 'Ayouzainy', 'ayou03');
+(1, 'พัชรมัย', 'เหมหงษา', 'ภูเก็ต', 833140625, 'Fearnn', 'fearn01'),
+(2, 'Kansuda', 'Sridee', 'Phuket', 852130245, 'Nanny', 'Nanny02'),
+(3, 'นอร์อายูณี', 'หะยีอาลี', 'Narathiwat', 862932904, 'Ayou', 'Ayou03'),
+(4, 'Niall', 'Horan', 'London', 862222347, 'Nialla', 'niall04');
 
 --
 -- Indexes for dumped tables
