@@ -1,0 +1,42 @@
+﻿@model AntiDrugWeb2.Models.news
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>News Details</h2>
+
+<div>
+    <h4>news</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.newsTitile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsTitile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.newsDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsDetails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.newsDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.newsID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
