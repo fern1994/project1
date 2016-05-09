@@ -1,0 +1,48 @@
+﻿@model AntiDrugWeb2.Models.news
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete news</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>news</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.newsTitile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsTitile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.newsDetails)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsDetails)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.newsDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.newsDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

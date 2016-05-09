@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ยาเค"
+        android:id="@+id/textView52"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/yak"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : ยาเค คีทามีน (Ketamine)"
+        android:id="@+id/textView53"
+        android:layout_below="@+id/textView52"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="สารออกฤทธิ์ : Ketamine"
+        android:id="@+id/textView54"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ : เป็นผงผลึกสีขาว มีกลิ่นอ่อนๆเฉพาะตัว ละลายได้ดีในและแอลกอฮอล์ ผลึก หรือ เป็นน้ำบรรจุอยู่ในขวดสีชา จัดอยู่ในกลุ่มยาสลบ แต่ผู้ที่ได้รับจะไม่สลบ เพียงรู้สึกเหมือนตัวเองหลุดออกจากสิ่งแวดล้อมรอบตัว ความวิตกกังวลลดลง เดินเซมีอาการเหมือนเมาสุรา พูดลิ้นพันกัน เหงื่อออกมาก หัวใจเต้นเร็ว ความดันเลือดสูงขึ้น ความสับสน ง่วงนอน หากได้รับยาในปริมาณมากจะทำให้เกิด อาการคล้ายโรคจิต อาละวาดตามด้วยโคม่าและชัก การฟื้นจากฤทธิ์ยาจะรู้สึก เหมือนตื่นจากฝันร้าย ตื่นเต้นง่าย เพ้อคลั่ง และอาจเกิดอาการประสาทหลอน"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/textView54"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

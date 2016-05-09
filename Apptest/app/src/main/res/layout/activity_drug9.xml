@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="โคเคน"
+        android:id="@+id/textView39"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/cocain"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : โคเคน หรือ โคคาอีน (Cocaine)"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่ออื่นๆ : COKE , SNOW , SPEED BALL หรือ CRACK"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อวิทยาศาสตร์ : methyl ester of benzoylecgonine"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ
+โคเคนสามารถแบ่งออกได้เป็น 2 ประเภทใหญ่ๆ คือ โคเคนเบส
+(Cocaine base) และ เกลือโคเคน เช่น โคเคนไฮโดรคลอไรด์ (Cocaine hydrochloride) และโคเคนซัลเฟต (Cocaine sulfate)
+โคเคนที่พบในประเทศไทย มี 2 ชนิด ได้แก่
+1. โคเคนชนิดผง มีลักษณะเป็นผงละเอียดสีขาว รสขม ไม่มีกลิ่น
+2. โคเคนรูปผลึกเป็นก้อน (Free base , crack)
+"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

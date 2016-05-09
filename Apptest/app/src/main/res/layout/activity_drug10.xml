@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="แอลเอสดี"
+        android:id="@+id/textView44"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lsd"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : แอลเอสดี (LSD)"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อวิทยาศาสตร์ : lysergic acid diethylamide"
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ
+        มีฤทธิ์หลอนประสาทอย่างแรง LSD เป็นสารที่ผลิตขึ้นมาจาก lysergic acid ของสารจำพวก ergot ซึ่งเป็นรา (fungus) ที่ขึ้นอยู่ตามเมล็ดข้าวไร ไม่มีสี ไม่มีกลิ่น มีรสขมเล็กน้อย ค้นพบในปี พ.ศ.2481 โดย ดร.อัลเบิร์ท ฮอฟมันน์ (Dr. Albert Hofmann) นักเคมีชาวสวิส โดยสกัดได้จากเชื้อราชนิดหนึ่งจากเมล็ดข้าวไร
+การเสพ LSD   มักเสพโดยการรับประทานสูดดม เคี้ยว หรืออม  มีหลากหลายรูปแบบ ได้แก่ เม็ดกลมแบน แคปซูล แผ่นเจล (gelatin sheets) ของเหลวบรรจุในหลอดแก้ว ส่วนใหญ่ที่พบจะนำเอา LSD ไปหยดลงบนกระดาษสี่เหลี่ยม ที่มีคุณสมบัติดูดซับ เรียกว่า blotter paper ที่มีลวดลายและสีสันต่างๆ แล้วแบ่งเป็นชิ้นสี่เหลี่ยมเล็กๆ คล้ายสแตมป์ นิยมเรียกกันในหมู่ผู้เสพว่า สแตมป์เมา กระดาษเมา (magic paper) จะออกฤทธิ์ภายใน 30 – 90 นาที และมีฤทธิ์อยู่ได้นาน 8 – 12 ชั่วโมง ผู้ที่เสพจะมีอาการประสาทหลอนเห็นภาพเหตุการณ์ หรือประสบการณ์ในอดีต (flashbacks) "
+        android:id="@+id/textView47"
+        android:layout_below="@+id/textView46"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

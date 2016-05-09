@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fern_computer.apptest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".KnowledgeActivity" />
+        <activity android:name=".Drug" />
+        <activity android:name=".AddictPhase" />
+        <activity android:name=".Law" />
+        <activity android:name=".News" />
+        <activity android:name=".LawType1" />
+        <activity android:name=".LawType2" />
+        <activity android:name=".LawType3" />
+        <activity android:name=".LawType4" />
+        <activity android:name=".LawType5" />
+        <activity android:name=".Type1Convicted1" />
+        <activity android:name=".SelectDrug" />
+        <activity android:name=".SelectAddictPhase" />
+        <activity android:name=".SelectLawType1" />
+        <activity android:name=".Evaluate" />
+        <activity android:name=".EvaluateForm" />
+        <activity android:name=".EvaluateResult" />
+        <activity android:name=".SelectNews" />
+        <activity android:name=".SelectLawType2" />
+        <activity android:name=".SelectLawType4" />
+        <activity android:name=".SelectLawType3" />
+        <activity android:name=".SelectLawType5" />
+        <activity android:name=".Calendar" />
+        <activity android:name=".AlertActivity"></activity>
+    </application>
+
+</manifest>

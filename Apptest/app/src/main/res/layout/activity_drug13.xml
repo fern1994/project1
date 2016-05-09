@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="กัญชา"
+        android:id="@+id/textView56"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/guncha"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : กัญชา (Cannabis, Marihuana, Ganja)"
+        android:id="@+id/textView57"
+        android:layout_below="@+id/textView56"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ
+        กัญชา เป็นพืชล้มลุกจำพวกหญ้าขึ้นได้ง่ายในเขตร้อน ลำต้นสูงประมาณ 2-4 ฟุต ลักษณะใบจะแยกออกเป็นแฉกประมาณ 5-8 แฉก คล้ายใบมันสำปะหลัง ที่ขอบใบทุกใบจะมีรอยหยักอยู่เป็นระยะๆ ออกดอกเป็นช่อเล็กๆ ตามง่ามของกิ่งและก้าน ส่วนที่คนนำมาเสพได้แก่ ส่วนของกิ่ง ก้าน ใบและยอดช่อดอกกัญชา โดยนำมาตากหรืออบแห้งแล้วบดหรือหั่นให้เป็นผงหยาบๆ จากนั้นจึงนำมายัดไส้บุหรี่สูบ (แตกต่างจากบุหรี่ทั่วไปที่ไส้บุหรี่จะมีสีเขียวต่างจากไส้ยาสูบที่มีสีน้ำตาล และขณะจุดสูบจะมีกลิ่นเหมือนหญ้าแห้งไหม้ไฟ) หรืออาจสูบด้วยกล้องหรือบ้องกัญชา สารที่สำคัญที่สุดที่มีฤทธิ์ต่อสมองและทำให้ร่างกาย อารมณ์และจิตใจเปลี่ยนแปลงไป คือ เตตราไฮโดรแคนนาบินอล (Tetrahydro Cannabinol) หรือ THC ทำให้ผู้เสพตื่นเต้น ช่างพูด และหัวเราะตลอดเวลา"
+        android:id="@+id/textView58"
+        android:layout_below="@+id/textView57"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

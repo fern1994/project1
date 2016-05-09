@@ -1,0 +1,45 @@
+﻿@model IEnumerable<AntiDrugWeb1.Models.news>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.newsTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.newsDetail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.newsDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsDetail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.newsDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.newsID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.newsID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.newsID })
+        </td>
+    </tr>
+}
+
+</table>

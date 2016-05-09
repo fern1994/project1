@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="เฮโรอีน"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/heroine"
+            android:layout_marginTop="20dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : เฮโรอีน (Heroin)"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่ออื่น ๆ : ผงขาว แค็ป ไอระเหย"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทางวิทยาศาสตร์ : Diacetylmorphine"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ
+เฮโรอีนที่แพร่ระบาดในประเทศไทย แบ่งเป็น 2 ชนิด คือ
+1. เฮโรอีนบริสุทธิ์ หรือ เฮโรอีนเบอร์ 4 มีลักษณะเป็นผงละเอียดสีขาว ชนิดนี้จะมีเนื้อ เฮโรอีนสูงถึง 90-95% ไม่มีกลิ่น  รสขมจัด นิยมเรียกว่า ผงขาว มักบรรจุอยู่ในถุง ห่อกระดาษ พลาสติก หรือหลอด ส่วนใหญ่เสพโดยวิธีฉีดหรือสูบ
+2. เฮโรอีนผสม หรือ เฮโรอีนเบอร์ 3 มีลักษณะเป็นเกล็ด ไม่มีกลิ่น รสขมจัด ชนิดนี้จะมีเนื้อเฮโรอีน ประมาณ 5-20% และมีการผสมสารอย่างอื่นลงไป เช่น สารหนู สตริกนิน กรดประสานทอง น้ำกัญชาต้ม ยานอนหลับ และเจือสีต่างๆ เช่น สีม่วงอ่อน สีชมพูอ่อน จึงมีสีหลากหลายต่างกัน มักพบบรรจุอยู่ในซองพลาสติกหรือห่อกระดาษ นิยมเสพโดยวิธีสูดไอระเหย ดังนั้นจึงมีคนเรียกเฮโรอีนชนิดนี้ว่า ไอระเหย
+"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>

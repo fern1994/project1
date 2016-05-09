@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ยาบ้า"
+        android:id="@+id/textView19"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/yaba"
+            android:layout_marginTop="20dp"
+            />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทั่วไป : ยาบ้า"
+        android:id="@+id/textView20"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่ออื่น ๆ : ยาม้า ยาขยัน"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ชื่อทางวิทยาศาสตร์ : (+)-2-methylamino-1-phenylpropane"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="สารเคมีที่ออกฤทธิ์ :
+สารเคมีประเภทแอมเฟตามีน (Amphetamine) โดยผลการตรวจพิสูจน์ยาบ้าใน ประเทศไทยปัจจุบันเกือบทั้งหมดมีเมทแอมเฟตามีน ไฮโดรคลอไรด์(Methamphetamine Hydrochloride)
+"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ลักษณะทางกายภาพ :
+ยาบ้า มีลักษณะเป็นยาเม็ดกลมแบนขนาดเล็ก เส้นผ่าศูนย์กลางประมาณ 6-8 มิลลิเมตร ความหนาประมาณ 3 มิลลิเมตร น้ำหนักเม็ดยาประมาณ 80-100 มิลลิกรัม มีสีต่างๆกัน  เช่น สีส้ม สีน้ำตาล สีม่วง สีชมพู สีเทา สีเหลือง และสีเขียว เป็นต้น มีสัญลักษณ์ที่ปรากฏบนเม็ดยา เช่น ฬ , ? , M , PG ,WY สัญลักษณ์รูปดาว , รูปพระจันทร์เสี้ยว ,99 หรืออาจ เป็นลักษณะของเส้นแบ่งครึ่งเม็ด ซึ่งสัญลักษณ์เหล่านี้อาจปรากฏบนเม็ดยาด้านใดด้านหนึ่งหรือทั้งสองด้าน หรืออาจเป็นเม็ดเรียบทั้งสองด้านก็ได้
+"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</ScrollView>
