@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AlertDateTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_meeting">DetailMeeting</string>
+    <string name="title_activity_more_info">MoreInfoActivity</string>
+</resources>
